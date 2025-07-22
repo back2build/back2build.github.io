@@ -5,7 +5,7 @@ permalink: /donate/
 ---
 
 
-# Donate to Ncube Foundation
+# Donate to Back2Build Foundation
 
 Your gift helps ambitious students in Bulawayo access education, mentorship, and opportunity. Choose your preferred method below:
 
@@ -13,7 +13,7 @@ Your gift helps ambitious students in Bulawayo access education, mentorship, and
 
 ## 1. EcoCash (Zimbabwe 🇿🇼)
 
-**Account Name:** Ncube Foundation  
+**Account Name:** Back2Build Foundation
 **EcoCash Number:** +263 77 123 4567  
 **Reference:** Your Name / “Donation”
 
@@ -39,18 +39,18 @@ We accept WorldRemit transfers directly into our local EcoCash wallet.
 6. Complete your payment (bank transfer, card, etc.).  
 7. Your donation will arrive instantly in our EcoCash wallet.  
 
-> **Tip:** Add “Ncube Donation” in the **reference/message** field so we know it’s from you!
+> **Tip:** Add “Back2Build Donation” in the **reference/message** field so we know it’s from you!
 
 ---
 
 ## 3. Zelle (USA 🇺🇸)
 
-**Recipient Name:** Ncube Foundation  
-**Zelle–Linked Email:** donate@ncubefoundation.org.zw  
+**Recipient Name:** Back2Build Foundation
+**Zelle–Linked Email:** donate@back2buildfoundation.org.zw
 
 1. Open your bank’s mobile app or the **Zelle** app.  
 2. Select **“Send with Zelle”** → **“New Recipient”**.  
-3. Enter **donate@ncubefoundation.org.zw** and tap **Next**.  
+3. Enter **donate@back2buildfoundation.org.zw** and tap **Next**.
 4. Enter the donation amount and tap **Next**.  
 5. (Optional) For **Memo**, type your name and “Donation.”  
 6. Review details and tap **Send**.  
@@ -63,7 +63,7 @@ We accept WorldRemit transfers directly into our local EcoCash wallet.
 
 If you run into any issues or need a different payment method, please contact us at:
 
-- **Email:** info@ncubefoundation.org.zw  
+- **Email:** info@back2buildfoundation.org.zw
 - **WhatsApp:** +263 77 123 4567  
 
 Thank you for empowering Bulawayo’s youth! 🙏  

@@ -9,7 +9,7 @@ header:
     - label: "<i class='fa-solid fa-hand-holding-dollar'></i> Donate"
       url: "/donate/"
 excerpt: >
-  Welcome to the Ncube foundation. Our mission is to provide financial support and mentorship to high school students in Bulawayo.
+  Welcome to the Back2Build foundation. Our mission is to provide financial support and mentorship to high school students in Bulawayo.
 feature_row:
   - image_path: /assets/images/students.jpg
     alt: "customizable"
@@ -27,7 +27,7 @@ feature_row:
     btn_label: "Learn more" 
 ---
 
-# Ncube Foundation
+# Back2Build Foundation
 
 *Empowering Bulawayo’s next generation through education, mentorship, and opportunity.*
 
@@ -35,7 +35,7 @@ feature_row:
 
 ## 🎯 Our Mission
 
-The Ncube Foundation partners with local communities and educators in Bulawayo to:
+The Back2Build Foundation partners with local communities and educators in Bulawayo to:
 
 - Provide **financial support** (scholarships, school fees, uniforms)
 - Deliver **mentorship** & career guidance
@@ -83,10 +83,10 @@ The Ncube Foundation partners with local communities and educators in Bulawayo t
 
 ## 💬 Testimonials
 
-> “Thanks to Ncube’s support, I’m the first in my family to sit for A-levels—and I plan to study engineering at Wits University next year!”  
+> “Thanks to Back2Build’s support, I’m the first in my family to sit for A-levels—and I plan to study engineering at Wits University next year!”
 > **– Tariro M., Grade 12 Scholar**
 
-> “Our robotics club launched because of Ncube’s seed funding. Now students are competing and winning at national fairs.”  
+> “Our robotics club launched because of Back2Build’s seed funding. Now students are competing and winning at national fairs.”
 > **– Mr. Dube, STEM Club Coordinator**
 
 ---
@@ -95,7 +95,7 @@ The Ncube Foundation partners with local communities and educators in Bulawayo t
 
 - **Donate**: Every \$10 covers a student’s textbooks for one term.  
 - **Volunteer**: Bring your expertise—mentor one-on-one, teach a workshop.  
-- **Partner**: Connect us with schools, businesses, or grant opportunities.  
+- **Partner**: Connect us with schools, businesses, or grant opportunities.
 
 [**Donate Now »**](#) [**Become a Volunteer »**](#) [**Partner with Us »**](#)
 
