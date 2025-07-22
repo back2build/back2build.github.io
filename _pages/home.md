@@ -105,7 +105,7 @@ The Back2Build Foundation partners with local communities and educators in Bulaw
 
 ## 📬 Get In Touch
 
-**Email**: info@ncubefoundation.org.zw  
+**Email**: info@back2build.org.zw
 **Phone**: +263 (29) 123-4567  
 **Address**: 12 Moffat Road, Bulawayo, Zimbabwe 
 
