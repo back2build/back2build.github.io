@@ -1,0 +1,16 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+
+.archive__item-teaser img {
+  max-height: 200px;     /* change 300px to whatever you like */
+  width: auto;           /* preserve aspect ratio */
+  object-fit: cover;     /* center-crop the image */
+}
