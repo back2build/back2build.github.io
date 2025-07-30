@@ -8,9 +8,9 @@ sidebar:
   - title: "Role"
     image: /assets/images/students/simba_headshot.jpg
     image_alt: "logo"
-    text: "Designer, Front-End Developer"
+    text: "Software Engineer"
   - title: "Responsibilities"
-    text: "Reuters try PR stupid commenters should isn't a business model"
+    text: "TBD"
 ---
 
 Simbarashe Dzinamarira is a PhD student in the Computer Science Department at Rice University.
