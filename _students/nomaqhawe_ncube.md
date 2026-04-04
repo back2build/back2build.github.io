@@ -9,8 +9,8 @@ sidebar:
     image: /assets/images/students/noma_headshot.jpg
     image_alt: "logo"
     text: "Public Health"
-  - title: "Responsibilities"
-    text: "Reuters try PR stupid commenters should isn't a business model"
+  - title: "Skills"
+    text: "Behavioral Public Health, Statistics"
 ---
 
 I am a passionate public health professional with a Master of Public Health (MPH) from the University of Michigan – Ann Arbor, specializing in Social and Behavioral Health Sciences and certified in Social Epidemiology.
