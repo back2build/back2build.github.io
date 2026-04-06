@@ -4,7 +4,7 @@ permalink: /
 hidden: true
 title: ""
 header:
-  overlay_color: "#809959"
+  overlay_color: "#4a6a2f"
   overlay_image: /assets/images/mm-home-page-feature.jpg
   actions:
     - label: "Donate"

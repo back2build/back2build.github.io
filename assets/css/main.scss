@@ -9,8 +9,232 @@ search: false
 @import "minimal-mistakes"; // main partials
 
 
+/* ==========================================================================
+   Back2Build — Custom refinements
+   ========================================================================== */
+
+/* Student grid thumbnails */
 .archive__item-teaser img {
-  max-height: 200px;     /* change 300px to whatever you like */
-  width: auto;           /* preserve aspect ratio */
-  object-fit: cover;     /* center-crop the image */
+  max-height: 200px;
+  width: auto;
+  object-fit: cover;
+}
+
+/* Masthead */
+.masthead {
+  border-bottom: 2px solid #5b7a3d;
+  background: #fff;
+}
+
+.site-title {
+  font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
+  font-size: 1.35em;
+  letter-spacing: -0.01em;
+  color: #2d3436;
+}
+
+/* Footer */
+.page__footer {
+  color: rgba(#fff, 0.7);
+
+  a {
+    color: rgba(#fff, 0.85);
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  .page__footer-follow .social-icons a {
+    color: rgba(#fff, 0.7);
+
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+
+/* Hero overlay polish */
+.page__hero--overlay {
+  .page__lead {
+    font-size: 1.15em;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+  }
+
+  .btn--light-outline {
+    border: 2px solid #fff;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-size: 0.85em;
+    padding: 0.65em 1.8em;
+    transition: background 0.2s ease, color 0.2s ease;
+
+    &:hover {
+      background: #fff;
+      color: #5b7a3d;
+      text-shadow: none;
+    }
+  }
+}
+
+/* Feature row cards */
+.feature__wrapper {
+  border-bottom: none;
+  margin-top: 0.5em;
+}
+
+.feature__item {
+  .archive__item {
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+
+    &:hover {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transform: translateY(-2px);
+    }
+  }
+
+  .archive__item-body {
+    padding: 1em 1.2em 1.4em;
+  }
+
+  .archive__item-title {
+    font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
+    font-size: 1.1em;
+  }
+
+  .archive__item-excerpt {
+    font-size: 0.9em;
+    color: #636e72;
+  }
+}
+
+/* Feature row teaser images */
+.feature__item-teaser {
+  border-radius: 6px 6px 0 0;
+}
+
+/* Student grid cards */
+.grid__item {
+  .archive__item {
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+    padding-bottom: 1em;
+
+    &:hover {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transform: translateY(-2px);
+    }
+  }
+
+  .archive__item-teaser {
+    border-radius: 6px 6px 0 0;
+  }
+
+  .archive__item-title {
+    font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
+    padding: 0 0.8em;
+  }
+
+  .archive__item-excerpt {
+    padding: 0 0.8em;
+    font-size: 0.85em;
+    color: #636e72;
+  }
+}
+
+/* Headings throughout */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
+  color: #2d3436;
+}
+
+h2 {
+  border-bottom: 1px solid #e8e4df;
+  padding-bottom: 0.35em;
+}
+
+/* Blockquotes (testimonials) */
+blockquote {
+  border-left: 3px solid #5b7a3d;
+  background: #f5f3ef;
+  padding: 1em 1.2em;
+  border-radius: 0 4px 4px 0;
+  font-style: normal;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/* Tables */
+table {
+  border-radius: 4px;
+  overflow: hidden;
+
+  th {
+    background: #5b7a3d;
+    color: #fff;
+    font-weight: 600;
+  }
+
+  td {
+    border-color: #e8e4df;
+  }
+}
+
+/* Sidebar profile image (student pages) */
+.sidebar img {
+  border-radius: 6px;
+}
+
+/* Notice boxes — softer radius */
+.notice,
+.notice--primary,
+.notice--info,
+.notice--warning,
+.notice--success,
+.notice--danger {
+  border-radius: 4px;
+}
+
+/* Buttons */
+.btn {
+  border-radius: 4px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.btn--primary {
+  background: #5b7a3d;
+
+  &:hover {
+    background: darken(#5b7a3d, 8%);
+  }
+}
+
+/* Pagination */
+.pagination--pager {
+  border-radius: 4px;
+
+  &.current,
+  &:hover {
+    background: #5b7a3d;
+    color: #fff;
+    border-color: #5b7a3d;
+  }
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
 }

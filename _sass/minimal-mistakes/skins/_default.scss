@@ -1,5 +1,24 @@
 /* ==========================================================================
-   Default skin
+   Default skin — Back2Build Foundation
    ========================================================================== */
 
-// Intentionally left blank
+/* Warm earth tones inspired by Zimbabwe's landscape */
+$primary-color: #5b7a3d;
+$text-color: #2d3436;
+$background-color: #fafaf7;
+$footer-background-color: #2d3436;
+$border-color: #e8e4df;
+$code-background-color: #f5f3ef;
+
+$link-color: #5b7a3d;
+$link-color-hover: darken($link-color, 12%);
+$link-color-visited: desaturate($link-color, 15%);
+$masthead-link-color: $text-color;
+$masthead-link-color-hover: $primary-color;
+
+$success-color: #5b7a3d;
+$info-color: #4a8bad;
+$warning-color: #c5873a;
+$danger-color: #c0392b;
+
+$form-background-color: #f5f3ef;
