@@ -19,7 +19,7 @@ This guide walks you through how to make changes to the Back2Build website. Ever
 
 ## Before You Start
 
-**What you need:** A GitHub account that has been added to the [Back2Build organization](https://github.com/back2build), and a web browser. Ask Simba to add your account if you haven't been added yet.
+**What you need:** A GitHub account and a web browser. If you don't have a GitHub account yet, create one for free at [github.com](https://github.com/signup). Once you have an account, ask Simba to add you to the [Back2Build organization](https://github.com/back2build) — you won't be able to make edits until you've been added.
 {: .notice--info}
 
 The website files live on GitHub. To make changes:
