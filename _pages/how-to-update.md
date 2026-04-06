@@ -9,7 +9,7 @@ sidebar:
 This guide walks you through how to make changes to the Back2Build website. Everything is done through GitHub's website — no software to install, no coding experience needed.
 
 - **The website:** [https://back2build.github.io/](https://back2build.github.io/)
-- **The files (GitHub):** [https://github.com/orgs/back2build/people/back2build.github.io](https://github.com/orgs/back2build/people/back2build.github.io)
+- **The files (GitHub):** [https://github.com/back2build/back2build.github.io](https://github.com/back2build/back2build.github.io)
 
 ### Jump to a common task
 
@@ -24,7 +24,7 @@ This guide walks you through how to make changes to the Back2Build website. Ever
 
 The website files live on GitHub. To make changes:
 
-1. Go to [the repository on GitHub](https://github.com/orgs/back2build/people/back2build.github.io).
+1. Go to [the repository on GitHub](https://github.com/back2build/back2build.github.io).
 2. Sign in to your GitHub account (you must be a member of the [Back2Build org](https://github.com/orgs/back2build/people) to make edits).
 3. Navigate to the file you want to change.
 4. Make your edits and **commit** (save) them.
@@ -50,14 +50,14 @@ This is the simplest and most common task.
 
 | Page on the website | File to edit |
 |---|---|
-| Homepage | [`_pages/home.md`](https://github.com/orgs/back2build/people/back2build.github.io/blob/main/_pages/home.md) |
-| Donation page | [`_pages/donate.md`](https://github.com/orgs/back2build/people/back2build.github.io/blob/main/_pages/donate.md) |
-| Students grid page (the heading text) | [`_pages/student-listing.md`](https://github.com/orgs/back2build/people/back2build.github.io/blob/main/_pages/student-listing.md) |
-| Blog listing page | [`_pages/post-listing.md`](https://github.com/orgs/back2build/people/back2build.github.io/blob/main/_pages/post-listing.md) |
+| Homepage | [`_pages/home.md`](https://github.com/back2build/back2build.github.io/blob/main/_pages/home.md) |
+| Donation page | [`_pages/donate.md`](https://github.com/back2build/back2build.github.io/blob/main/_pages/donate.md) |
+| Students grid page (the heading text) | [`_pages/student-listing.md`](https://github.com/back2build/back2build.github.io/blob/main/_pages/student-listing.md) |
+| Blog listing page | [`_pages/post-listing.md`](https://github.com/back2build/back2build.github.io/blob/main/_pages/post-listing.md) |
 
 ## Editing a Student Profile
 
-[Open the _students folder](https://github.com/orgs/back2build/people/back2build.github.io/tree/main/_students){: .btn .btn--primary}
+[Open the _students folder](https://github.com/back2build/back2build.github.io/tree/main/_students){: .btn .btn--primary}
 
 1. Click on the student's file (e.g., `nomaqhawe_ncube.md`).
 2. Click the **pencil icon** to edit.
@@ -86,7 +86,7 @@ This has two parts: uploading a photo, then creating the student's page.
 
 ### Step 1: Upload the student's photo
 
-[Open the student photos folder](https://github.com/orgs/back2build/people/back2build.github.io/tree/main/assets/images/students){: .btn .btn--primary}
+[Open the student photos folder](https://github.com/back2build/back2build.github.io/tree/main/assets/images/students){: .btn .btn--primary}
 
 1. Click **"Add file"** then **"Upload files."**
 2. Drag the photo in or click to browse your computer.
@@ -103,7 +103,7 @@ Remember the exact filename you used — you will need it in the next step.
 
 ### Step 2: Create the student file
 
-[Open the _students folder](https://github.com/orgs/back2build/people/back2build.github.io/tree/main/_students){: .btn .btn--primary}
+[Open the _students folder](https://github.com/back2build/back2build.github.io/tree/main/_students){: .btn .btn--primary}
 
 1. Click **"Add file"** then **"Create new file."**
 2. In the filename box at the top, type the student's name in this format: `firstname_lastname.md`
@@ -166,8 +166,8 @@ She is passionate about public health and hopes to study medicine.
 
 ## Updating a Student's Photo
 
-1. Upload the new photo to the [`assets/images/students/`](https://github.com/orgs/back2build/people/back2build.github.io/tree/main/assets/images/students) folder (same process as [Step 1 above](#step-1-upload-the-students-photo)).
-2. Edit the student's file in the [`_students/`](https://github.com/orgs/back2build/people/back2build.github.io/tree/main/_students) folder.
+1. Upload the new photo to the [`assets/images/students/`](https://github.com/back2build/back2build.github.io/tree/main/assets/images/students) folder (same process as [Step 1 above](#step-1-upload-the-students-photo)).
+2. Edit the student's file in the [`_students/`](https://github.com/back2build/back2build.github.io/tree/main/_students) folder.
 3. Update the photo filename in the `header: teaser` line. It only appears once — change it and you're done.
 
 For example, to change from `jane_headshot.jpg` to `jane_new_photo.jpg`:
@@ -179,7 +179,7 @@ header:
 
 ## Removing a Student
 
-[Open the _students folder](https://github.com/orgs/back2build/people/back2build.github.io/tree/main/_students){: .btn .btn--primary}
+[Open the _students folder](https://github.com/back2build/back2build.github.io/tree/main/_students){: .btn .btn--primary}
 
 1. Click on the student's file.
 2. Click the **"..."** menu (top-right of the file content).
@@ -191,7 +191,7 @@ This removes their profile page from the site. Their photo will still be in the 
 
 ## Adding a Blog Post
 
-[Open the _posts folder](https://github.com/orgs/back2build/people/back2build.github.io/tree/main/_posts){: .btn .btn--primary}
+[Open the _posts folder](https://github.com/back2build/back2build.github.io/tree/main/_posts){: .btn .btn--primary}
 
 1. Click **"Add file"** then **"Create new file."**
 2. Name the file using this exact format: **`YYYY-MM-DD-short-title.md`**
@@ -242,7 +242,7 @@ for student scholarships. Thank you to everyone who attended!
 
 ### Adding images to a blog post
 
-To include an image in a post, first upload it to the [`assets/images/`](https://github.com/orgs/back2build/people/back2build.github.io/tree/main/assets/images) folder, then reference it in your post like this:
+To include an image in a post, first upload it to the [`assets/images/`](https://github.com/back2build/back2build.github.io/tree/main/assets/images) folder, then reference it in your post like this:
 
 ```markdown
 ![Description of the image](/assets/images/your-image-filename.jpg)
@@ -256,7 +256,7 @@ For example:
 
 ## Editing the Navigation Menu
 
-The menu at the top of the site is controlled by one file: [**`_data/navigation.yml`**](https://github.com/orgs/back2build/people/back2build.github.io/blob/main/_data/navigation.yml)
+The menu at the top of the site is controlled by one file: [**`_data/navigation.yml`**](https://github.com/back2build/back2build.github.io/blob/main/_data/navigation.yml)
 
 It looks like this:
 
@@ -320,7 +320,7 @@ Becomes: [link text](https://example.com)
 ![description of the image](/assets/images/filename.jpg)
 ```
 
-Upload the image to the [`assets/images/`](https://github.com/orgs/back2build/people/back2build.github.io/tree/main/assets/images) folder first, then reference it with the path above.
+Upload the image to the [`assets/images/`](https://github.com/back2build/back2build.github.io/tree/main/assets/images) folder first, then reference it with the path above.
 
 ### Lists
 
@@ -372,7 +372,7 @@ If changes still don't appear after 5-10 minutes, something may have gone wrong 
 {: .notice--warning}
 
 - Wait at least 2 minutes and refresh the page. GitHub Pages takes time to rebuild.
-- If it has been more than 10 minutes, go to the [**"Actions"** tab](https://github.com/orgs/back2build/people/back2build.github.io/actions) in GitHub to check for build errors (a red X means something went wrong).
+- If it has been more than 10 minutes, go to the [**"Actions"** tab](https://github.com/back2build/back2build.github.io/actions) in GitHub to check for build errors (a red X means something went wrong).
 
 **A student photo is not showing**
 {: .notice--warning}
@@ -398,11 +398,11 @@ The section between the two `---` lines at the top (called "front matter") is ve
 
 | What you want to change | Where to find it |
 |---|---|
-| Homepage content | [`_pages/home.md`](https://github.com/orgs/back2build/people/back2build.github.io/blob/main/_pages/home.md) |
-| Student profiles | [`_students/`](https://github.com/orgs/back2build/people/back2build.github.io/tree/main/_students) |
-| Student photos | [`assets/images/students/`](https://github.com/orgs/back2build/people/back2build.github.io/tree/main/assets/images/students) |
-| Student template | [`_students/_TEMPLATE.md`](https://github.com/orgs/back2build/people/back2build.github.io/blob/main/_students/_TEMPLATE.md) |
-| Blog posts | [`_posts/`](https://github.com/orgs/back2build/people/back2build.github.io/tree/main/_posts) |
-| Donation page | [`_pages/donate.md`](https://github.com/orgs/back2build/people/back2build.github.io/blob/main/_pages/donate.md) |
-| Navigation menu | [`_data/navigation.yml`](https://github.com/orgs/back2build/people/back2build.github.io/blob/main/_data/navigation.yml) |
-| This guide | [`_pages/how-to-update.md`](https://github.com/orgs/back2build/people/back2build.github.io/blob/main/_pages/how-to-update.md) |
+| Homepage content | [`_pages/home.md`](https://github.com/back2build/back2build.github.io/blob/main/_pages/home.md) |
+| Student profiles | [`_students/`](https://github.com/back2build/back2build.github.io/tree/main/_students) |
+| Student photos | [`assets/images/students/`](https://github.com/back2build/back2build.github.io/tree/main/assets/images/students) |
+| Student template | [`_students/_TEMPLATE.md`](https://github.com/back2build/back2build.github.io/blob/main/_students/_TEMPLATE.md) |
+| Blog posts | [`_posts/`](https://github.com/back2build/back2build.github.io/tree/main/_posts) |
+| Donation page | [`_pages/donate.md`](https://github.com/back2build/back2build.github.io/blob/main/_pages/donate.md) |
+| Navigation menu | [`_data/navigation.yml`](https://github.com/back2build/back2build.github.io/blob/main/_data/navigation.yml) |
+| This guide | [`_pages/how-to-update.md`](https://github.com/back2build/back2build.github.io/blob/main/_pages/how-to-update.md) |
