@@ -324,6 +324,12 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _students
+  - scope:
+      path: ""
+      type: students
+    values:
+      layout: single
 
 
 collections:

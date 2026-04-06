@@ -5,11 +5,11 @@ excerpt: "St. Ignatius U6"
 header:
   teaser: /assets/images/students/simba_teaser.jpg
 sidebar:
-  - title: "Role"
+  - title: "Focus Area"
     image: /assets/images/students/simba_headshot.jpg
-    image_alt: "logo"
+    image_alt: "Photo of Simbarashe"
     text: "Software Engineer"
-  - title: "Responsibilities"
+  - title: "Skills"
     text: "TBD"
 ---
 
