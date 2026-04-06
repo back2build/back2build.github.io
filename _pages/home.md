@@ -2,24 +2,25 @@
 layout: splash
 permalink: /
 hidden: true
+title: ""
 header:
   overlay_color: "#809959"
   overlay_image: /assets/images/mm-home-page-feature.jpg
   actions:
-    - label: "<i class='fa-solid fa-hand-holding-dollar'></i> Donate"
+    - label: "Donate"
       url: "/donate/"
 excerpt: >
   Welcome to the Back2Build foundation. Our mission is to provide financial support and mentorship to high school students in Bulawayo.
 feature_row:
   - image_path: /assets/images/students.jpg
-    alt: "customizable"
+    alt: "Students we work with"
     title: "Students"
     excerpt: "See Profiles of the Students we are working with"
     url: "/students/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/florence.jpg
-    alt: "customizable"
+    alt: "News and posts"
     title: "News and posts"
     excerpt: "Updates on what we've been up to"
     url: "/posts/"

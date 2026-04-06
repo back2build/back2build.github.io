@@ -13,7 +13,7 @@ This guide walks you through how to make changes to the Back2Build website. Ever
 
 ### Jump to a common task
 
-[Add a Student](#adding-a-new-student){: .btn .btn--primary} [Edit a Student](#editing-a-student-profile){: .btn .btn--info} [Add a Blog Post](#adding-a-blog-post){: .btn .btn--success}
+[Edit a Page](#editing-an-existing-page){: .btn .btn--info} [Edit a Student](#editing-a-student-profile){: .btn .btn--info} [Add a Student](#adding-a-new-student){: .btn .btn--primary} [Add a Blog Post](#adding-a-blog-post){: .btn .btn--success}
 
 ---
 
@@ -30,12 +30,59 @@ The website files live on GitHub. To make changes:
 4. Make your edits and **commit** (save) them.
 
 <div class="notice--success" markdown="1">
-**"Commit" just means "save."** When GitHub asks you to "commit changes," it is asking you to save your work. Type a short note describing what you changed (e.g., "Add student Jane Doe") and click the green button.
+**"Commit" just means "save."** When GitHub asks you to "commit changes," it is asking you to save your work. Type a short note describing what you changed (e.g., "Update donate page") and click the green button.
 </div>
+
+<div class="notice--danger" markdown="1">
+**Do not edit `_config.yml`, `_layouts/`, `_includes/`, or `_sass/`.** These control the site's structure and design. Everything you need to update is in `_pages/`, `_students/`, `_posts/`, and `_data/`.
+</div>
+
+## Editing an Existing Page
+
+This is the simplest and most common task.
+
+1. Navigate to the file you want to edit (use the links in the table below).
+2. Click the **pencil icon** (top-right of the file content) to enter edit mode.
+3. Make your changes. The text uses Markdown formatting — see the [Writing with Markdown](#writing-with-markdown) section if you need help.
+4. Click **"Commit changes"**, add a short description of what you changed, and save.
+
+### Which file is which page?
+
+| Page on the website | File to edit |
+|---|---|
+| Homepage | [`_pages/home.md`](https://github.com/back2build/back2build.github.io/blob/main/_pages/home.md) |
+| Donation page | [`_pages/donate.md`](https://github.com/back2build/back2build.github.io/blob/main/_pages/donate.md) |
+| Students grid page (the heading text) | [`_pages/student-listing.md`](https://github.com/back2build/back2build.github.io/blob/main/_pages/student-listing.md) |
+| Blog listing page | [`_pages/post-listing.md`](https://github.com/back2build/back2build.github.io/blob/main/_pages/post-listing.md) |
+
+## Editing a Student Profile
+
+[Open the _students folder](https://github.com/back2build/back2build.github.io/tree/main/_students){: .btn .btn--primary}
+
+1. Click on the student's file (e.g., `nomaqhawe_ncube.md`).
+2. Click the **pencil icon** to edit.
+3. To change their **bio**, edit the text below the second `---` line.
+4. To change their **details** (school, skills, photo), edit the fields in the top section between the two `---` lines.
+5. Commit your changes.
+
+Here's an example — to update a student's school from "Mpompoma L6" to "Mpompoma U6", change this line:
+
+```yaml
+excerpt: "Mpompoma L6"
+```
+
+to:
+
+```yaml
+excerpt: "Mpompoma U6"
+```
+
+**Be careful not to remove the colons or change the spacing in the top section.**
+{: .notice--warning}
 
 ## Adding a New Student
 
-This is the most common task. It has two parts: uploading a photo, then creating the student's page.
+This has two parts: uploading a photo, then creating the student's page.
 
 ### Step 1: Upload the student's photo
 
@@ -66,45 +113,37 @@ Remember the exact filename you used — you will need it in the next step.
 
 ```yaml
 ---
-layout: single
 title: "STUDENT FULL NAME"
 excerpt: "SCHOOL and FORM/LEVEL"
 header:
   teaser: /assets/images/students/PHOTO_FILENAME.jpg
 sidebar:
   - title: "Focus Area"
-    image: /assets/images/students/PHOTO_FILENAME.jpg
-    image_alt: "Photo of STUDENT FIRST NAME"
-    text: "THEIR MAIN FIELD e.g. Public Health"
+    text: "THEIR MAIN FIELD"
   - title: "Skills"
     text: "SKILL 1, SKILL 2, SKILL 3"
 ---
 
-Write the student's bio here. Tell their story -- where they are from,
-what they study, what they hope to achieve.
+Write the student's bio here.
 ```
 
 {:start="4"}
-4. Replace all the UPPERCASE PLACEHOLDER text with the student's real information. `PHOTO_FILENAME.jpg` appears in **two places** — update both.
+4. Replace all the UPPERCASE PLACEHOLDER text with the student's real information.
 5. Click **"Commit changes"**, type a short description like "Add student Jane Moyo", and click the green **"Commit changes"** button.
 
-<div class="notice--info" markdown="1">
-**There's also a template file** at [`_students/_TEMPLATE.md`](https://github.com/back2build/back2build.github.io/blob/main/_students/_TEMPLATE.md) if you prefer to copy from there. If you use it, make sure to **delete the `published: false` line** — that line hides the page from the site.
-</div>
+The photo you uploaded in Step 1 will automatically appear on both the Students grid page and the student's profile page.
+{: .notice--success}
 
 Here's what a filled-in example looks like:
 
 ```yaml
 ---
-layout: single
 title: "Jane Moyo"
 excerpt: "Mpompoma L6"
 header:
   teaser: /assets/images/students/jane_headshot.jpg
 sidebar:
   - title: "Focus Area"
-    image: /assets/images/students/jane_headshot.jpg
-    image_alt: "Photo of Jane"
     text: "Public Health"
   - title: "Skills"
     text: "Data Analysis, Community Health, Statistics"
@@ -120,51 +159,22 @@ She is passionate about public health and hopes to study medicine.
 |---|---|
 | `title` | The student's name displayed as the page heading |
 | `excerpt` | Short subtitle shown under their name on the Students grid |
-| `header: teaser` | The thumbnail photo on the Students grid page |
-| `sidebar: image` | The larger photo on their individual profile page |
+| `header: teaser` | The student's photo (used on both the grid and profile page) |
 | `sidebar: "Focus Area"` | Their main field of study or work |
 | `sidebar: "Skills"` | Their specific skills, separated by commas |
 | The text below the `---` | Their full bio, written in plain English |
 
-## Editing a Student Profile
-
-[Open the _students folder](https://github.com/back2build/back2build.github.io/tree/main/_students){: .btn .btn--primary}
-
-1. Click on the student's file (e.g., `nomaqhawe_ncube.md`).
-2. Click the **pencil icon** (top-right of the file content) to edit.
-3. To change their **bio**, edit the text below the second `---` line.
-4. To change their **details** (school, skills, photo), edit the fields in the top section between the two `---` lines.
-5. Commit your changes.
-
-Here's an example — to update a student's school from "Mpompoma L6" to "Mpompoma U6", change this line:
-
-```yaml
-excerpt: "Mpompoma L6"
-```
-
-to:
-
-```yaml
-excerpt: "Mpompoma U6"
-```
-
-**Be careful not to remove the colons or change the spacing/indentation in the top section.**
-{: .notice--warning}
-
 ## Updating a Student's Photo
 
-1. First, upload the new photo to the [`assets/images/students/`](https://github.com/back2build/back2build.github.io/tree/main/assets/images/students) folder (same steps as [Step 1 above](#step-1-upload-the-students-photo)).
-2. Then, edit the student's file in the [`_students/`](https://github.com/back2build/back2build.github.io/tree/main/_students) folder.
-3. Update the photo filename in **both** places it appears (`header: teaser` and `sidebar: image`).
+1. Upload the new photo to the [`assets/images/students/`](https://github.com/back2build/back2build.github.io/tree/main/assets/images/students) folder (same process as [Step 1 above](#step-1-upload-the-students-photo)).
+2. Edit the student's file in the [`_students/`](https://github.com/back2build/back2build.github.io/tree/main/_students) folder.
+3. Update the photo filename in the `header: teaser` line. It only appears once — change it and you're done.
 
 For example, to change from `jane_headshot.jpg` to `jane_new_photo.jpg`:
 
 ```yaml
 header:
   teaser: /assets/images/students/jane_new_photo.jpg
-sidebar:
-  - title: "Focus Area"
-    image: /assets/images/students/jane_new_photo.jpg
 ```
 
 ## Removing a Student
@@ -178,22 +188,6 @@ sidebar:
 
 This removes their profile page from the site. Their photo will still be in the images folder but won't be visible anywhere.
 {: .notice--info}
-
-## Editing an Existing Page
-
-1. Navigate to the file you want to edit (see the [Quick Reference](#quick-reference) table at the bottom, or use the links below).
-2. Click the **pencil icon** (top-right of the file content) to enter edit mode.
-3. Make your changes.
-4. Click **"Commit changes"**, add a short description of what you changed, and save.
-
-### Which file is which page?
-
-| Page on the website | File to edit |
-|---|---|
-| Homepage | [`_pages/home.md`](https://github.com/back2build/back2build.github.io/blob/main/_pages/home.md) |
-| Donation page | [`_pages/donate.md`](https://github.com/back2build/back2build.github.io/blob/main/_pages/donate.md) |
-| Students grid page (the heading text) | [`_pages/student-listing.md`](https://github.com/back2build/back2build.github.io/blob/main/_pages/student-listing.md) |
-| Blog listing page | [`_pages/post-listing.md`](https://github.com/back2build/back2build.github.io/blob/main/_pages/post-listing.md) |
 
 ## Adding a Blog Post
 
@@ -234,7 +228,6 @@ categories:
   - News
 tags:
   - fundraiser
-  - event
 ---
 
 We held our annual fundraiser on April 5th and raised $2,000
@@ -400,10 +393,6 @@ The section between the two `---` lines at the top (called "front matter") is ve
 {: .notice--warning}
 
 - The filename must start with a date in `YYYY-MM-DD-` format. Example: `2026-04-06-my-post.md`. If the date is missing or in the wrong format, Jekyll will ignore the file.
-
-<div class="notice--info" markdown="1">
-**Don't touch these folders** unless you know what you're doing: `_layouts/`, `_includes/`, `_sass/`, `_config.yml`. These control the site's structure and design.
-</div>
 
 ## Quick Reference
 

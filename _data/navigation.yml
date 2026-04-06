@@ -23,20 +23,20 @@ how-to-update:
     children:
       - title: "Before You Start"
         url: /how-to-update/#before-you-start
+      - title: "Editing an Existing Page"
+        url: /how-to-update/#editing-an-existing-page
   - title: "Students"
     children:
-      - title: "Adding a New Student"
-        url: /how-to-update/#adding-a-new-student
       - title: "Editing a Student Profile"
         url: /how-to-update/#editing-a-student-profile
+      - title: "Adding a New Student"
+        url: /how-to-update/#adding-a-new-student
       - title: "Updating a Student's Photo"
         url: /how-to-update/#updating-a-students-photo
       - title: "Removing a Student"
         url: /how-to-update/#removing-a-student
   - title: "Pages & Posts"
     children:
-      - title: "Editing an Existing Page"
-        url: /how-to-update/#editing-an-existing-page
       - title: "Adding a Blog Post"
         url: /how-to-update/#adding-a-blog-post
       - title: "Editing the Navigation Menu"

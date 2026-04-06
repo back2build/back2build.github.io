@@ -184,7 +184,7 @@ body {
   &--overlay {
     position: relative;
     margin-bottom: 2em;
-    padding: 3em 0;
+    padding: 2em 0;
     @include clearfix;
     background-size: cover;
     background-repeat: no-repeat;
@@ -200,6 +200,27 @@ body {
 
     .wrapper {
       padding-inline: 1em;
+
+      @include breakpoint($small) {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0 2em;
+
+        .page__title {
+          width: 100%;
+        }
+
+        .page__lead {
+          flex: 1;
+          margin-bottom: 0;
+        }
+
+        // Place actions (Donate button) next to the excerpt
+        p:last-child {
+          margin-bottom: 0;
+        }
+      }
 
       @include breakpoint($x-large) {
         max-width: $x-large;

@@ -6,8 +6,6 @@ header:
   teaser: /assets/images/students/simba_teaser.jpg
 sidebar:
   - title: "Focus Area"
-    image: /assets/images/students/simba_headshot.jpg
-    image_alt: "Photo of Simbarashe"
     text: "Software Engineer"
   - title: "Skills"
     text: "TBD"

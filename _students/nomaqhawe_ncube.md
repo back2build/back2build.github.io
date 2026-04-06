@@ -6,8 +6,6 @@ header:
   teaser: /assets/images/students/noma_headshot.jpg
 sidebar:
   - title: "Focus Area"
-    image: /assets/images/students/noma_headshot.jpg
-    image_alt: "Photo of Nomaqhawe"
     text: "Public Health"
   - title: "Skills"
     text: "Behavioral Public Health, Statistics"
