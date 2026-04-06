@@ -8,11 +8,14 @@ toc_sticky: true
 
 This guide walks you through how to make changes to the Back2Build website. Everything is done through GitHub's website — no software to install, no coding experience needed.
 
+- **The website:** [https://back2build.github.io/](https://back2build.github.io/)
+- **The files (GitHub):** [https://github.com/back2build/back2build.github.io](https://github.com/back2build/back2build.github.io)
+
 ## Before You Start
 
 The website files live on GitHub. To make changes:
 
-1. Go to the repository on GitHub (ask Simba for the link if you don't have it bookmarked).
+1. Go to [the repository on GitHub](https://github.com/back2build/back2build.github.io).
 2. Sign in to your GitHub account.
 3. Navigate to the file you want to change.
 4. Make your edits and **commit** (save) them.
@@ -216,7 +219,7 @@ When you commit (save) a change, the site does **not** update instantly. GitHub 
 
 After saving:
 1. Wait about 1-2 minutes.
-2. Go to the website and **refresh the page** (Ctrl+R on Windows, Cmd+R on Mac).
+2. Go to [https://back2build.github.io/](https://back2build.github.io/) and **refresh the page** (Ctrl+R on Windows, Cmd+R on Mac).
 3. You should see your changes.
 
 If changes still don't appear after 5-10 minutes, something may have gone wrong — see Troubleshooting below.
